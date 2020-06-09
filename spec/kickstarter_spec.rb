@@ -1,3 +1,5 @@
+require 'pry'
+
 describe 'Backer - ::new' do
   it 'takes a name on initialization, accessible through an attribute reader' do
     backer = Backer.new("Avi")

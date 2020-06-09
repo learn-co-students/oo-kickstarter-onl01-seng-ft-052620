@@ -7,7 +7,6 @@ class Backer
 	end
 
 	def back_project(project)
-		raise TypeError if project.class != Project
 		@backed_projects << project
 		project.backers << self
 	end
